@@ -8,9 +8,28 @@
     <title>Happy Valentine's Day</title>
     <link rel="stylesheet" href="public/style.css">
   </head>
+
   <body>
     <canvas id="starfield"></canvas>
+
+    <!-- Button -->
     <button id="valentinesButton">Click Me! ❤</button>
+
+    <!-- GIF (hidden by default) -->
+    <img
+      id="loveGif"
+      src="lovecutie7.gif"
+      alt="I love you"
+      style="
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 220px;
+        z-index: 10;
+      "
+    />
+
     <script src="script.js"></script>
   </body>
 </html>

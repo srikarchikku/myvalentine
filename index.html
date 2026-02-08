@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://raw.githubusercontent.com/sojijr/valentine-website/main/public/images/favicon.png">
-    <link rel="icon" href="public/images/favicon.png" type="image/x-icon" />  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/sojijr/valentine-website/main/public/images/favicon.png"
+    />
+    <link rel="icon" href="public/images/favicon.png" type="image/x-icon" />
     <title>Happy Valentine's Day</title>
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="public/style.css" />
   </head>
 
   <body>
+    <!-- Canvas Background -->
     <canvas id="starfield"></canvas>
 
-    <!-- Button -->
-    <button id="valentinesButton">Click Me! ❤</button>
+    <!-- UI Layer -->
+    <div id="ui-layer">
+      <!-- Mid-story button -->
+      <button id="feelLoveButton">Feel my love ❤️</button>
 
-    <!-- GIF (hidden by default) -->
-    <img
-      id="loveGif"
-      src="lovecutie7.gif"
-      alt="I love you"
-      style="
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 220px;
-        z-index: 10;
-      "
-    />
+      <!-- Final button -->
+      <button id="valentinesButton">Click Me! ❤️</button>
 
+      <!-- Final GIF -->
+      <img
+        id="loveGif"
+        src="lovecutie7.gif"
+        alt="I love you"
+      />
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" src="public/music/mylove.mp3" preload="auto"></audio>
+
+    <!-- Script -->
     <script src="script.js"></script>
   </body>
 </html>

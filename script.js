@@ -112,7 +112,7 @@ ctx.textBaseline = "middle";
 ===================== */
 
 const lines = [
-  ["Hi Gayatri, on this special Valentine's Day."],
+  ["Hi Gayathri, on this special Valentine's Day."],
   ["I want to first thank you for choosing me over billions of people"],
   ["These are a few of my feelings that I want to share with you"],
 
@@ -136,7 +136,7 @@ const lines = [
     "Thank you for making time to listen to this small heart's feelings."
   ],
   [
-    "I love you, Gayatri!!",
+    "I love you, Gayathri!!",
     "And Happy Valentine's Day ❤️"
   ]
 ];
